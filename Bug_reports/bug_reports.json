@@ -1,6 +1,6 @@
 {
   "Bug_id":"1",
-  "Priority":"Hight",
+  "Priority":"High",
   "Summary":"Total price does not reflect to the product quantity",
   "Steps to reproduce":
   {
@@ -13,4 +13,52 @@
   },
   "Expected result":"Total price should reflect the quantity of the product",
   "Actual result":"Total price display as for only 1 item"
+}
+
+{
+  "Bug_id":"2",
+  "Priority":"High",
+  "Summary":"'Marken': ”404 page not found” error eppears after scrolling down the products list in a certain brand and clicking on a 3rd level subcategrory",
+  "Steps to reproduce":
+  {
+    "1":"Open '' website",
+    "2":"Click on “Marken“ from top navigation bar ",
+    "3":"Click on any brand (for ex. “CALIDA“)",
+    "4":"Scroll down till new products are loaded",
+    "5":"Scroll up and choose any of the 3rd level subcategories (see attchment “3rd level subcategories“)"
+  },
+  "Expected result":"products from the chosen (“CALIDA“) brand related to the chosen 3rd level subcategory are displayed",
+  "Actual result":"404 page not found” error eppears",
+  "Reproduced on:":[ "Win10, Chrome(108.0,109.0)", "Firefox(108.0,109.0)", "Edge(108,109)","MacOs Ventura", "Safari(16)", "Chrome(108.0,109.0)", "IOS(16)", "Safari(16)","Android(11,12,13)"]
+}
+
+{
+  "Bug_id":"3",
+  "Priority":"High",
+  "Summary":"Mobile version. Left Catalog menu: page under left catalog menu is being scrolled after pinching logo and scrolling down",
+  "Steps to reproduce":
+  {
+    "1":"Open mobile version of '' website",
+    "2":"Tap on burger menu at the top left corner",
+    "3":"Pinch logo image and start to scroll down"
+  },
+  "Expected result":"main page shouldn’t appear and be scrolled",
+  "Actual result":"main page under catalog menu becomes visible and is being scrolled (see attachment)",
+  "Reproduced on:":["IOS(16)", "Safari(16)","Android(11,12,13)"]
+}
+
+
+{
+  "Bug_id":"4",
+  "Priority":"High",
+  "Summary":"Price is displayed as a default price on some products cards while this price is a discount price on sellers' webpage",
+  "Steps to reproduce":
+  {
+    "1":"Open '' website",
+    "2":"Click on “Bekleidung“ from top navigation menu",
+    "3":"Click on “People Tree Suzanne Pansy Top“ product card"
+  },
+  "Expected result":"the price on https://dev.1000-brands.com/ is shown as a discount price as well",
+  "Actual result":"the price on https://dev.1000-brands.com/ is shown as a default price while this price is displayed as a discount price on sellers' webpage",
+  "Reproduced on:":[ "Win10, Chrome(108.0,109.0)", "Firefox(108.0,109.0)", "Edge(108,109)","MacOs Ventura", "Safari(16)", "Chrome(108.0,109.0)", "IOS(16)", "Safari(16)","Android(11,12,13)"]
 }
