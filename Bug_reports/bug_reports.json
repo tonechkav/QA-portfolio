@@ -62,3 +62,84 @@
   "Actual result":"the price on https://dev.1000-brands.com/ is shown as a default price while this price is displayed as a discount price on sellers' webpage",
   "Reproduced on:":[ "Win10, Chrome(108.0,109.0)", "Firefox(108.0,109.0)", "Edge(108,109)","MacOs Ventura", "Safari(16)", "Chrome(108.0,109.0)", "IOS(16)", "Safari(16)","Android(11,12,13)"]
 }
+
+{
+  "Bug_id":"5",
+  "Priority":"High",
+  "Summary":"'Proceed' button doesn't work in notification pop-up in Safari browser",
+  "Steps to reproduce":
+  {
+    "1":"Open WP Admin Panel",
+    "2":"Go to user profile page",
+    "3":"Click “Get points“ button",
+    "4":"Click Fill in the form",
+    "5":"Click “Click 'Proceed' button"
+  },
+  "Expected result":" redirection to the second page of notification pop-up occurs",
+  "Actual result":"the 'Proceed' button doesn’t work",
+  }
+
+    "Bug_id":"6",
+  "Priority":"Medium",
+  "Summary":" Description is shown in one line which goes beyond the card borders when its length is more than 32 Latin characters",
+  "Steps to reproduce":
+  {
+    "1":"In admin panel add 32 characters to Excerpt",
+    "2":"Update the page",
+    "3":"On Site refresh the page",
+  },
+  "Expected result":"Redirection to the second page of notification pop-up",
+  "Actual result":"Description goes beyond the card borders",
+  }
+
+      "Bug_id":"7",
+  "Priority":"Low",
+  "Summary":" There is NO switch to mobile view when mobile device is rotated to landscape orientation",
+  "Steps to reproduce":
+  {
+    "1":"Open any page with Mobile device",
+    "2":"Rotate to landscape orientation",
+  },
+  "Expected result":"The view is switched to mobile",
+  "Actual result":"The view is NOT switched to mobile. This problem appears to all blocks.",
+  }
+
+
+      "Bug_id":"8",
+  "Priority":"Low",
+  "Summary":" There is NO switch to mobile view when mobile device is rotated to landscape orientation",
+  "Steps to reproduce":
+  {
+    "1":"Open any page with Mobile device",
+    "2":"Rotate to landscape orientation",
+  },
+  "Expected result":"The view is switched to mobile",
+  "Actual result":"The view is NOT switched to mobile. This problem appears to all blocks.",
+  }
+
+        "Bug_id":"9",
+  "Priority":"Medium",
+  "Summary":"Mobile version, Urlaub: top of the Urlaub listing page automatically appears when reaching bottom of the page by scrolling",
+  "Steps to reproduce":
+  {
+    "1":"Open '' website",
+    "2":"Go to “Urlaub” page",
+    "3":"Scroll down to the bottom of the page",
+  },
+  "Expected result":"Bottom of the webpage is displayed after reaching  it",
+  "Actual result":"Top of the Urlaub page automatically appears when reaching bottom of the page by scrolling (see attachment)",
+  }
+
+
+        "Bug_id":"10",
+  "Priority":"High",
+  "Summary":"'Bekleidung': there is empty category of " Pagenschlüpfer"",
+  "Steps to reproduce":
+  {
+    "1":"Open '' website",
+    "2":"Click 'Bekleidung' category in navbar",
+    "3":"Click 'Pagenschlupfer' 2lvl category in left side bar",
+  },
+  "Expected result":"Either the category 'Pagenschlupfer' should be deleted or the category products should be imported.",
+  "Actual result":"'Pagenschlupfer' 2lvl category is empty.",
+  }
